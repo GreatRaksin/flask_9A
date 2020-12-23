@@ -2,4 +2,8 @@
 
 {% block content %}
     <h1>Hello!</h1>
+
+        {% for image in im  %}
+            <img src="{{ image }}" alt="">
+        {% endfor %}
 {% endblock %}

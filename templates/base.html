@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
 
+<!-- Вот сюда встраиваются остальные странички сайта -->
 {% block content %}
+
 {% endblock %}
+<!-- ######## -->
 
 </body>
 </html>
